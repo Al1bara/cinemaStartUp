@@ -20,6 +20,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "back": "craco start && node server.js", 
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
